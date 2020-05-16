@@ -20,12 +20,9 @@ The project coded in python and image processing is done using OpenCV library.
 
 The challenges faced were -
 1) Too large dimension of images.
+      For fast processing switched from single threaded --> multithreaded --> multiprocessing.
       
-For fast processing switched from single threaded --> multithreaded --> multiprocessing.
-      
-
 2) Uneven illumination of image and orientation of plate not fixed.
 
-
-The file Pool.py is the main program.
+The file dip.py is the main program.
 
